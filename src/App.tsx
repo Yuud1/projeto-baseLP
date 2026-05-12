@@ -8,6 +8,7 @@ import { VslSection } from "@/components/vsl-section"
 import { BonusesSection } from "@/components/bonuses-section"
 import { FaqSection } from "@/components/faq-section"
 import { GuaranteeSection } from "@/components/guarantee-section"
+import { OfferSection } from "@/components/offer-section"
 import { Footer } from "@/components/footer"
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
       <BonusesSection />
       <BentoGrid />
       <GuaranteeSection />
+      <OfferSection />
       <FaqSection />
       <Footer />
     </main>
