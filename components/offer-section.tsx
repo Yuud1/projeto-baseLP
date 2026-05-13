@@ -67,14 +67,14 @@ export function OfferSection() {
             <div className="flex flex-col justify-center border-t border-[#121212]/10 pt-10 lg:w-[min(100%,380px)] lg:shrink-0 lg:border-l lg:border-t-0 lg:pl-12 lg:pt-0 xl:w-[min(100%,440px)] xl:pl-14">
               <div>
                 <p className="font-mono text-sm uppercase tracking-[0.25em] text-[#121212]/50">De</p>
-                <p className="mt-1 font-mono text-sm tracking-[0.25em] text-red-500/55 line-through decoration-red-500/45">
+                <p className="mt-1 font-mono text-sm font-semibold tracking-[0.25em] text-red-500/55 line-through decoration-red-500/45 decoration-2">
                   R$ 990,00
                 </p>
               </div>
 
               <div className="mt-2">
                 <p className="font-mono text-sm uppercase tracking-[0.25em] text-[#121212]/50">Por apenas</p>
-                <p className="mt-1 text-6xl font-black tracking-tighter text-[#121212] md:text-7xl lg:text-6xl xl:text-7xl">
+                <p className="mt-1 text-6xl font-bold tracking-tighter text-[#121212] md:text-7xl lg:text-6xl xl:text-7xl">
                   R$ 97,00
                 </p>
               </div>
